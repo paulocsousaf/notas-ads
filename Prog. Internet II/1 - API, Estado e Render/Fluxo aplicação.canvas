@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"f1d40f8f7f390849","type":"group","x":520,"y":-800,"width":960,"height":1060,"label":"state.js"},
+		{"id":"66d0173a700e1ff4","x":480,"y":821,"width":962,"height":899,"type":"group","label":"render.js"},
+		{"id":"13855f8f89bdafb7","type":"group","x":-560,"y":-800,"width":640,"height":860,"label":"app.js"},
+		{"id":"cc73881c0ef03d0c","type":"group","x":-320,"y":600,"width":400,"height":421,"label":"api.js"},
+		{"id":"2f7d2e74d4869b72","type":"text","text":"const listeners = []","x":539,"y":-768,"width":250,"height":60,"color":"4"},
+		{"id":"16faa511eb301e76","type":"text","text":"// a referência da função é guardada\nlinsteners.push(renderApp","x":550,"y":-670,"width":280,"height":90,"color":"1"},
+		{"id":"937ea15124609aff","type":"text","text":"getState()\nreturn {\n...state,\nvisiblePatients: getVisiblePatients()\n}\n","x":580,"y":-565,"width":280,"height":185,"color":"1"},
+		{"id":"5873e5daf5d89018","type":"text","text":"A função **renderApp**() é a função que desenha toda a tela. Toda vez que o estado muda ela é chamada","x":-1160,"y":-1020,"width":294,"height":178},
+		{"id":"4bc21bdb8919cee0","x":1120,"y":-340,"width":240,"height":220,"color":"1","type":"text","text":"setPatients(patients\n\nMudar o estado de State: \n\tColocar os pacientes dentro de state;\n\tMudar isLoading\n\t"},
+		{"id":"932c6588b06d8c6e","x":1080,"y":-1,"width":320,"height":221,"color":"1","type":"text","text":"notify()\n\nPega um snapshot do Stade atual, via getState,  que acabou de ser mudado \n\nexecuta os linesters: para cada listener, ele o executa e passa esse snapshot do estado\n"},
+		{"id":"d93adbc026dfd22b","type":"text","text":"const state = {\npatients: [],\nsearchTerm: \"\",\nonlyActive: false,\nisLoading: true,\nerrorMessage: null,\n};","x":1040,"y":-778,"width":250,"height":190,"color":"4"},
+		{"id":"24698279240e6ebb","type":"file","file":"duvidas/Entenda getVisiblePatients().md","x":539,"y":-121,"width":325,"height":120,"color":"1"},
+		{"id":"03c6aa5bf52ea6be","type":"text","text":"const patients = await listPatients()","x":-500,"y":-300,"width":347,"height":50,"color":"4"},
+		{"id":"7a384491ad1783ff","type":"text","text":"start()","x":-480,"y":-610,"width":250,"height":60,"color":"1"},
+		{"id":"12a1de46f5cf05ef","type":"text","text":"// add o renderAPP()  ouviinte\n// @param: linester\nsubscribe(**renderApp**)","x":-456,"y":-768,"width":258,"height":130,"color":"1"},
+		{"id":"e2ff96cada84036a","x":-362,"y":-488,"width":265,"height":120,"color":"1","type":"file","file":"duvidas/renderApp().md"},
+		{"id":"36c03823266bc100","x":-305,"y":670,"width":347,"height":151,"color":"1","type":"file","file":"duvidas/listPatients.md"},
+		{"id":"7945af95eb8b6bcd","x":520,"y":920,"width":240,"height":80,"type":"text","text":"renderPatientList"},
+		{"id":"b1bf86e61db830ee","x":1100,"y":1017,"width":250,"height":60,"type":"text","text":"renderLoading"},
+		{"id":"bf749f338c7aee21","x":995,"y":1180,"width":250,"height":60,"type":"text","text":"renderCounter"}
+	],
+	"edges":[
+		{"id":"c3a5db9b0ea56ab4","fromNode":"12a1de46f5cf05ef","fromSide":"right","toNode":"16faa511eb301e76","toSide":"left","label":"adiciona um linester ao array de linsteners"},
+		{"id":"d0fbf29e544d1cda","fromNode":"e2ff96cada84036a","fromSide":"right","toNode":"937ea15124609aff","toSide":"left"},
+		{"id":"f9c2d94148919ff8","fromNode":"16faa511eb301e76","fromSide":"top","toNode":"2f7d2e74d4869b72","toSide":"bottom"},
+		{"id":"d75241f801c635c0","fromNode":"7a384491ad1783ff","fromSide":"bottom","toNode":"e2ff96cada84036a","toSide":"top"},
+		{"id":"b43cf1bf4b2c786a","fromNode":"e2ff96cada84036a","fromSide":"bottom","toNode":"03c6aa5bf52ea6be","toSide":"top"},
+		{"id":"2cbec0dc88d7745c","fromNode":"937ea15124609aff","fromSide":"bottom","toNode":"24698279240e6ebb","toSide":"top"},
+		{"id":"53d24cf5ed076c5f","fromNode":"e2ff96cada84036a","fromSide":"left","toNode":"5873e5daf5d89018","toSide":"right"},
+		{"id":"c895a92f3c25116d","fromNode":"937ea15124609aff","fromSide":"right","toNode":"d93adbc026dfd22b","toSide":"bottom","label":"add getVisiblePatients"},
+		{"id":"4791de71d47ac685","fromNode":"03c6aa5bf52ea6be","fromSide":"right","toNode":"36c03823266bc100","toSide":"top"},
+		{"id":"5c3f547334e85d01","fromNode":"36c03823266bc100","fromSide":"left","toNode":"03c6aa5bf52ea6be","toSide":"bottom"},
+		{"id":"7458157946e8cc15","fromNode":"03c6aa5bf52ea6be","fromSide":"top","toNode":"7a384491ad1783ff","toSide":"left"},
+		{"id":"000fdbad2be6c3d7","fromNode":"7a384491ad1783ff","fromSide":"left","toNode":"4bc21bdb8919cee0","toSide":"left"},
+		{"id":"d808dd156fc3b600","fromNode":"4bc21bdb8919cee0","fromSide":"bottom","toNode":"932c6588b06d8c6e","toSide":"top"},
+		{"id":"860dc919f0aa4158","fromNode":"932c6588b06d8c6e","fromSide":"left","toNode":"937ea15124609aff","toSide":"bottom","fromEnd":"arrow"},
+		{"id":"6336e72ceadcb91c","fromNode":"932c6588b06d8c6e","fromSide":"bottom","toNode":"e2ff96cada84036a","toSide":"bottom"}
+	]
+}

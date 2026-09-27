@@ -1,0 +1,3 @@
+Por favor me explique o padrão de projeto observer, também conhecido como pub/sub e sua relação e protagonismos em aplicação web frontend reativa, em profundidade com exemplos e analogias 
+
+- Três formas de trafegar dados em uma api: url, body e ...

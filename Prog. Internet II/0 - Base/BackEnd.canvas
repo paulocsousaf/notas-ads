@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"48086753fb8c67b2","x":-275,"y":0,"width":90,"height":50,"type":"text","text":"Internet\n"},
+		{"id":"8f1d80a84483bf05","x":-140,"y":0,"width":187,"height":60,"type":"text","text":"BackEnd"},
+		{"id":"b3a92ffeeca0e5f5","x":17,"y":-240,"width":247,"height":60,"type":"text","text":"Operação = Method + Patch"},
+		{"id":"d76998de86a42396","x":334,"y":-224,"width":187,"height":60,"type":"text","text":"Ação (EndPoint)"},
+		{"id":"180e08994951e13c","x":593,"y":-192,"width":187,"height":60,"type":"text","text":"Command"},
+		{"id":"679579c9073c8831","x":-500,"y":-7,"width":187,"height":60,"type":"text","text":"FrontEnd"},
+		{"id":"b4cbb8668cc7dfe6","x":-307,"y":125,"width":187,"height":60,"type":"text","text":"Request"},
+		{"id":"38f9f59183bd5bfd","x":593,"y":-276,"width":187,"height":60,"type":"text","text":"Query"},
+		{"id":"9ebc2c22182185ce","x":300,"y":-35,"width":187,"height":60,"color":"6","type":"text","text":"Persistência"},
+		{"id":"54360253381f0dbf","x":141,"y":-37,"width":83,"height":67,"color":"3","type":"text","text":"API"},
+		{"id":"59d2b685fc3b9000","x":546,"y":-30,"width":94,"height":50,"type":"text","text":"ORM"},
+		{"id":"02fa2938054121cf","x":269,"y":125,"width":250,"height":60,"type":"text","text":"SQLite"}
+	],
+	"edges":[
+		{"id":"552a80bb5d2805dd","fromNode":"54360253381f0dbf","fromSide":"right","toNode":"9ebc2c22182185ce","toSide":"left","toEnd":"none"},
+		{"id":"a3d5ba25fbf3a081","fromNode":"54360253381f0dbf","fromSide":"top","toNode":"b3a92ffeeca0e5f5","toSide":"bottom"},
+		{"id":"7e019cfa0ffcfe37","fromNode":"b3a92ffeeca0e5f5","fromSide":"right","toNode":"d76998de86a42396","toSide":"left"},
+		{"id":"418ac95d24b7a41a","fromNode":"d76998de86a42396","fromSide":"right","toNode":"38f9f59183bd5bfd","toSide":"left"},
+		{"id":"bbea28f7a48d28c4","fromNode":"d76998de86a42396","fromSide":"right","toNode":"180e08994951e13c","toSide":"left"},
+		{"id":"3febf3145fede70d","fromNode":"679579c9073c8831","fromSide":"bottom","toNode":"8f1d80a84483bf05","toSide":"bottom"},
+		{"id":"90c6da27bdb7b52e","fromNode":"8f1d80a84483bf05","fromSide":"top","toNode":"679579c9073c8831","toSide":"top","label":"Response"},
+		{"id":"c4cbba2d54c3a5f1","fromNode":"54360253381f0dbf","fromSide":"bottom","toNode":"8f1d80a84483bf05","toSide":"right"},
+		{"id":"c7c55f1951e3e651","fromNode":"9ebc2c22182185ce","fromSide":"right","toNode":"59d2b685fc3b9000","toSide":"left","toEnd":"none"},
+		{"id":"51dd3d6ee15f5af5","fromNode":"02fa2938054121cf","fromSide":"top","toNode":"9ebc2c22182185ce","toSide":"bottom","fromEnd":"arrow","label":"SQL"}
+	]
+}

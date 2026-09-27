@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"27dc76814f818345","x":-220,"y":-300,"width":250,"height":60,"type":"text","text":"APP"},
+		{"id":"73a95d4f57ce8066","x":-249,"y":-58,"width":250,"height":60,"type":"text","text":"ESTADO"},
+		{"id":"6ad27f18b99c0cb5","x":-280,"y":-200,"width":250,"height":60,"type":"text","text":"API\n"},
+		{"id":"991aa79dffd2ae7d","x":80,"y":-58,"width":250,"height":60,"type":"text","text":"DOM"},
+		{"id":"c65f622d6a5e62a4","x":30,"y":120,"width":250,"height":60,"type":"text","text":"VISUAL"}
+	],
+	"edges":[
+		{"id":"b25daf6e288a57f2","fromNode":"27dc76814f818345","fromSide":"bottom","toNode":"6ad27f18b99c0cb5","toSide":"top"},
+		{"id":"6b551ed95b2b1514","fromNode":"6ad27f18b99c0cb5","fromSide":"top","toNode":"27dc76814f818345","toSide":"bottom"},
+		{"id":"cd8307848374c6c2","fromNode":"6ad27f18b99c0cb5","fromSide":"bottom","toNode":"73a95d4f57ce8066","toSide":"top"},
+		{"id":"3b9eceda9415bf9a","fromNode":"73a95d4f57ce8066","fromSide":"bottom","toNode":"991aa79dffd2ae7d","toSide":"left"},
+		{"id":"0db13299d7f6cea4","fromNode":"991aa79dffd2ae7d","fromSide":"bottom","toNode":"c65f622d6a5e62a4","toSide":"top"}
+	]
+}

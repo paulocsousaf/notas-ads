@@ -1,0 +1,2 @@
+- Vai dar um fetch(URL)
+- retornar response.json() -> promisse. Quando resolvida vira um Array Js
