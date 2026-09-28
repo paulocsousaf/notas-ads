@@ -36,12 +36,12 @@ sequenceDiagram
 
 ## 2. Conceitos e Responsabilidades de Cada Camada
 
-| Camada | Arquivo de Exemplo | Conhece HTTP / Express? | Responsabilidade Principal |
-| :--- | :--- | :--- | :--- |
-| **Server** | `src/server.ts` | **Sim** | Configurar o Express, middlewares globais (`express.json()`, `express.static()`), plugar os roteadores e inicializar a porta (`app.listen()`). |
-| **Route** | `src/routes/*.route.ts` | **Sim** (apenas `Router`) | Declarar as rotas (método HTTP + URI) e associá-las às ações do respectivo Controller. |
+| Camada         | Arquivo de Exemplo                | Conhece HTTP / Express?         | Responsabilidade Principal                                                                                                                                         |
+| :------------- | :-------------------------------- | :------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Server**     | `src/server.ts`                   | **Sim**                         | Configurar o Express, middlewares globais (`express.json()`, `express.static()`), plugar os roteadores e inicializar a porta (`app.listen()`).                     |
+| **Route**      | `src/routes/*.route.ts`           | **Sim** (apenas `Router`)       | Declarar as rotas (método HTTP + URI) e associá-las às ações do respectivo Controller.                                                                             |
 | **Controller** | `src/controllers/*.controller.ts` | **Sim** (`Request`, `Response`) | Receber a requisição HTTP, extrair dados (`params`, `body`, `query`), chamar o Service, tratar exceções (`try/catch`) e enviar a resposta (`res.status().json()`). |
-| **Service** | `src/services/*.service.ts` | **NÃO** | Lógica de negócio, regras do domínio, cálculos e persistência de dados. Recebe e retorna dados puros (JavaScript/TypeScript). |
+| **Service**    | `src/services/*.service.ts`       | **NÃO**                         | Lógica de negócio, regras do domínio, cálculos e persistência de dados. Recebe e retorna dados puros (JavaScript/TypeScript).                                      |
 
 ---
 

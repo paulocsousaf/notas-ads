@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Arquitetura/atividades/atividadeC/RefatorandoB/anotacoes_rota_delete_status_codes_e_arquitetura.md",
-                "mode": "source",
+                "file": "2 - Arquitetura/atividades/atividadeC/RefatorandoB/anotacoes_git_commits_e_fluxo_profissional.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "anotacoes_rota_delete_status_codes_e_arquitetura"
+              "title": "anotacoes_git_commits_e_fluxo_profissional"
             }
           }
         ],
@@ -137,7 +137,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "6e094e644f2cc485",
@@ -230,15 +231,17 @@
   },
   "active": "072783b6464c1d15",
   "lastOpenFiles": [
-    "2 - Arquitetura/atividades/atividadeC/RefatorandoB/anotacoes_rota_post_dto_validacao_e_convencoes.md",
-    "2 - Arquitetura/atividades/atividadeC/RefatorandoB/guia-typescript-para-devs-js.md",
-    "2 - Arquitetura/atividades/atividadeC/RefatorandoB/anotacoes_rota_delete_status_codes_e_arquitetura.md",
-    "2 - Arquitetura/atividades/atividadeC/RefatorandoB/anotacoes_git_commits_e_fluxo_profissional.md",
-    "2 - Arquitetura/atividades/atividadeC/RefatorandoB/anotacoes_arquitetura_camadas.md",
+    "2 - Arquitetura/material-didatico-encontro2.md",
     "2 - Arquitetura/atividades/atividadeC/RefatorandoB/anotacoes_busca_id_validacao_e_tipagem.md",
+    "2 - Arquitetura/atividades/atividadeC/RefatorandoB/anotacoes_arquitetura_camadas.md",
     "2 - Arquitetura/atividades/atividadeC/RefatorandoB/Anotações.md",
+    "2 - Arquitetura/2. Error Handler.md",
     "2 - Arquitetura/1. Layered Architecture.md",
     "2 - Arquitetura/3. Aula.md",
+    "2 - Arquitetura/atividades/atividadeC/RefatorandoB/anotacoes_rota_delete_status_codes_e_arquitetura.md",
+    "2 - Arquitetura/atividades/atividadeC/RefatorandoB/anotacoes_rota_post_dto_validacao_e_convencoes.md",
+    "2 - Arquitetura/atividades/atividadeC/RefatorandoB/guia-typescript-para-devs-js.md",
+    "2 - Arquitetura/atividades/atividadeC/RefatorandoB/anotacoes_git_commits_e_fluxo_profissional.md",
     "2 - Arquitetura/atividades/atividadeC/RefatorandoB",
     "2 - Arquitetura/atividades/atividadeC/Untitled.md",
     "1 - API, Estado e Render/Express.md",
@@ -254,7 +257,6 @@
     "1 - API, Estado e Render/materiais/Aula01-Frontend-Estado-Renderizacao.pptx.pdf",
     "1 - API, Estado e Render/materiais",
     "0 - Base/conceitos/middleware.md",
-    "2 - Arquitetura/2. Error Handler.md",
     "0 - Base/conceitos",
     "Pasted image 20260919171119.png",
     "duvidas/trim.md",
@@ -269,7 +271,6 @@
     "duvidas/Entenda getVisiblePatients().md",
     "duvidas/getState.md",
     "duvidas/getvisiblePatients.md",
-    "duvidas/renderApp().md",
     "IMPLEMENTACAO/Desenvolvimento Web/PI - II/BackEnd.canvas",
     "IMPLEMENTACAO/Desenvolvimento Web/PI - II/React.canvas",
     "Pasted image 20260329110457.png"
